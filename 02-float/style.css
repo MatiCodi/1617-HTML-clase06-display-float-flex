@@ -1,0 +1,13 @@
+div{
+    background-color: purple;
+    padding: 3%;
+    /*margin: 3%;*/
+    width: 40%;
+
+}
+.soyizq {
+    float: left;
+}
+.soyder {
+    float: right;
+}

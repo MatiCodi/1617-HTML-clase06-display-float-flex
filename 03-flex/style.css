@@ -1,0 +1,45 @@
+div{
+    padding: 2%;
+    margin: 1%;
+
+}
+p.miniflex{
+    background-color: royalblue;
+    padding: 1%;
+    margin: 1%;
+   
+}
+/*flex direction es el eje principal si no especificado nada mas , vas a poner a todos los hijos en el eje*/
+
+.flex {
+    background-color: rebeccapurple;
+    display: flex;
+}
+
+/*flex direction es el eje principal , con column , va alinear en un eje vertical*/
+
+.flex1 {
+
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+/*direction row y wrap es si bajar o no los elementos*/
+
+
+p.miniflex1{
+    width: 40%;
+}
+
+
+.flex2 {
+    background-color: salmon;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+div{
+    padding: 2%;
+    margin: 1%;
+
+}
+p {
+    background-color: royalblue;
+    padding: 1%;
+    margin: 1%;
+   
+}
+
+
+.flex1 {
+    background-color: rebeccapurple;
+    display: flex;
+}
+/*cambiando el orden de los hijos */
+/* consejo personal: order les va a quitar años de vida*/
+ 
+.flex .miniflex:first-of-type{
+    order: 1;
+    background-color: springgreen;
+}
+.flex .miniflex:last-of-type{
+    order: 0;
+    background-color: rgb(147, 231, 189);
+}
+
+
+/*flex direction es el eje principal , con column , va alinear en un eje vertical*/
+
+.flex2 {
+
+    background-color: salmon;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+/*justify-content es como los alinea respecto del eje princiapl*/
+
+
+
+p.miniflex1{
+    width: 10%;
+}
+
+
+.flex3 {
+    background-color: tan;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.flex4{
+
+    background-color:greenyellow;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+
+
+}
+    
+

@@ -1,0 +1,29 @@
+div {
+    background-color: aqua;
+    padding: 2%;
+    margin: 3%;
+
+}
+
+p {
+    background-color: peru;
+
+}
+
+
+p.soyinline{
+
+    display: inline;
+}
+.soyinlineblock{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
